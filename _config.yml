@@ -1,0 +1,28 @@
+name: Torachitech
+favicon: null
+layout_spectrum: 0.7522045844234526
+typography_spectrum: 0.07021110318601131
+cta:
+  domain: null
+  bucket: null
+  version: null
+analytics:
+  google: null
+  facebook: null
+  twitter: null
+opengraph:
+  image: null
+  type: null
+  appId: null
+color:
+  brandColors:
+    - '#3C493F'
+    - '#7E8D85'
+    - '#B3BFB8'
+    - '#F0F7F4'
+    - '#A2E3C4'
+  brandStrength: 0.07827805634588003
+  lightness: 0.3859432030003518
+  saturation: 0.31352918641641736
+  rhythmicContrast: 0.10130833298899233
+purpose: []
