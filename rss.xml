@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title><![CDATA[Torachitech]]></title>
-        <description><![CDATA[Torachitech]]></description>
+        <title><![CDATA[とらち]]></title>
+        <description><![CDATA[とらち]]></description>
         <link>https://thegrid.ai/torachitech/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Thu, 17 Dec 2015 14:46:56 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 17 Dec 2015 14:57:06 GMT</lastBuildDate>
         <atom:link href="https://thegrid.ai/torachitech/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[とらちのぶろぐ]]></title>
+            <description><![CDATA[<article><h1>とらちのぶろぐ</h1><p>皮膚に相当するものは今回はありません。皮膚はラジエーターの役割を果たしており、血をたくさん流すとそれだけ熱が放出されて体温が下がります。Arduino温泉卵機の場合、もし温度が高くなりすぎても、自然放熱による温度降下しか今のところは考えられませんので、温度が設定した値を下回った場合のみヒーターによる加熱で設定温度まで温度を回復する、ということにします。 ...</p><img src="https://s3-us-west-2.amazonaws.com/the-grid-img/p/ce4aae4187aecbbe4dff20afade8b1ba7990fb12.png"></article>]]></description>
+            <link>http://www.torachi.com/2015/11/arduino-onsen-tamago-3.html</link>
+            <guid isPermaLink="false">0b506918-c5c5-4c31-baa9-97cb2afacbc8</guid>
+            <pubDate>Thu, 17 Dec 2015 14:56:47 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[No title]]></title>
             <description><![CDATA[<img src="http://1.bp.blogspot.com/-UuEdqT086n0/VkCz7QAGb3I/AAAAAAAAQkM/niy9rJ3EuAY/s640/IMG_4355.JPG">]]></description>
@@ -15,7 +22,7 @@
         </item>
         <item>
             <title><![CDATA[とらちのぶろぐ]]></title>
-            <description><![CDATA[<article><h1>とらちのぶろぐ</h1><p>PIDライブラリに付属していたサンプルプログラムに、ちょこちょこ肉付けして作りました。使用したのはPID_Basicdではなく、PID_RelayOutputです。 PIDを邪魔することなく１秒おきに温度データをシリアル通信させる為に、delay(1000)ではなくmillis()を使いました。やり方は #include #include #include "Adafruit_MAX31855.h" #define EXPID 1 #define SETPOINT 67 #define DO 10 #define CS 9 #define CLK 8 #define SSR 5 Adafruit_MAX31855 thermocouple(CLK, CS, DO); unsigned long previousMillis = 0; const long interval = 1000; // interval (ms) at which Arduino sends temperature data //PID double Setpoint,</p><img src="https://s3-us-west-2.amazonaws.com/the-grid-img/p/555e5d7d7777e9fa40efd031cc437568058b20a4.png"></article>]]></description>
+            <description><![CDATA[<article><h1>とらちのぶろぐ</h1><p>PIDライブラリに付属していたサンプルプログラムに、ちょこちょこ肉付けして作りました。使用したのはPID_Basicdではなく、PID_RelayOutputです。 PIDを邪魔することなく１秒おきに温度データをシリアル通信させる為に、delay(1000)ではなくmillis()を使いました。やり方は #include #include #include "Adafruit_MAX31855.h" #define EXPID 1 #define SETPOINT 67 #define DO 10 #define CS 9 #define CLK 8 #define SSR 5 Adafruit_MAX31855 thermocouple(CLK, CS, DO); unsigned long previousMillis = 0; const long interval = 1000; // interval (ms) at which Arduino sends temperature data //PID double Setpoint,</p><img src="https://s3-us-west-2.amazonaws.com/the-grid-img/p/bdfe2c6027f6ed3f73f2f730379d576dbcc3cf05.png"></article>]]></description>
             <link>http://www.torachi.com/2015/11/arduino-onsen-tamago-9.html</link>
             <guid isPermaLink="false">9105a342-78b2-4a88-ae24-533bc963edcd</guid>
             <pubDate>Thu, 17 Dec 2015 14:46:05 GMT</pubDate>
