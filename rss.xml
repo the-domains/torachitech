@@ -2,14 +2,28 @@
     <channel>
         <title><![CDATA[Torachitech]]></title>
         <description><![CDATA[Torachitech]]></description>
-        <link>http://github.com/dylang/node-rss</link>
+        <link>https://thegrid.ai/torachitech/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Thu, 17 Dec 2015 14:40:59 GMT</lastBuildDate>
-        <atom:link href="undefinedrss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Thu, 17 Dec 2015 14:46:56 GMT</lastBuildDate>
+        <atom:link href="https://thegrid.ai/torachitech/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[<img src="http://1.bp.blogspot.com/-UuEdqT086n0/VkCz7QAGb3I/AAAAAAAAQkM/niy9rJ3EuAY/s640/IMG_4355.JPG">]]></description>
+            <link>https://thegrid.ai/torachitech/8cdcbebd-1414-44a6-9f23-ee6acee4a9c5/index.html</link>
+            <guid isPermaLink="false">8cdcbebd-1414-44a6-9f23-ee6acee4a9c5</guid>
+            <pubDate>Thu, 17 Dec 2015 14:46:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[とらちのぶろぐ]]></title>
+            <description><![CDATA[<article><h1>とらちのぶろぐ</h1><p>PIDライブラリに付属していたサンプルプログラムに、ちょこちょこ肉付けして作りました。使用したのはPID_Basicdではなく、PID_RelayOutputです。 PIDを邪魔することなく１秒おきに温度データをシリアル通信させる為に、delay(1000)ではなくmillis()を使いました。やり方は #include #include #include "Adafruit_MAX31855.h" #define EXPID 1 #define SETPOINT 67 #define DO 10 #define CS 9 #define CLK 8 #define SSR 5 Adafruit_MAX31855 thermocouple(CLK, CS, DO); unsigned long previousMillis = 0; const long interval = 1000; // interval (ms) at which Arduino sends temperature data //PID double Setpoint,</p><img src="https://s3-us-west-2.amazonaws.com/the-grid-img/p/555e5d7d7777e9fa40efd031cc437568058b20a4.png"></article>]]></description>
+            <link>http://www.torachi.com/2015/11/arduino-onsen-tamago-9.html</link>
+            <guid isPermaLink="false">9105a342-78b2-4a88-ae24-533bc963edcd</guid>
+            <pubDate>Thu, 17 Dec 2015 14:46:05 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Getting Started on The Grid]]></title>
             <description><![CDATA[<article><h1>Getting Started on The Grid</h1><h2>Creating a Site</h2><p>Welcome to The Grid Beta, we’re excited to have you onboard! Here are a few quick tips to get you up and running. </p></article>]]></description>
-            <link>undefinedgetting-started-on-the-grid/index.html</link>
+            <link>https://thegrid.ai/torachitech/getting-started-on-the-grid/index.html</link>
             <guid isPermaLink="false">9fa7579a-5e40-4168-b291-971ea40c5690</guid>
             <pubDate>Thu, 17 Dec 2015 14:40:58 GMT</pubDate>
         </item>
