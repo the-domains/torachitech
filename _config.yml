@@ -1,29 +1,41 @@
-name: Torachitech
-favicon: null
-layout_spectrum: 0.35919
-typography_spectrum: 0.59597
 title: とらち
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+color:
+  saturation: 0.625
+  lightness: 0.625
+  brandStrength: 1
+  brandColors:
+    - '#6E301E'
+    - '#D1C4BB'
+    - '#A39A88'
+    - '#0C0B0D'
+    - '#9A5C5C'
+  rhythmicContrast: 0.5
 cta:
-  domain: null
   bucket: null
   version: null
+  domain: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
+favicon: null
+name: Torachitech
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#3C493F'
-    - '#7E8D85'
-    - '#B3BFB8'
-    - '#F0F7F4'
-    - '#A2E3C4'
-  brandStrength: 0.625
-  lightness: 0.625
-  saturation: 0.625
-  rhythmicContrast: 0.5
-purpose: []
+typography_spectrum: 0.59597
+layout_spectrum: 0.35919
